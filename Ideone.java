@@ -30,9 +30,9 @@ class Ideone
         System.out.println(sum);
     }
     public static void multiplosde3sem3() {
-    	System.out.println("Múltiplos de 3 sem contar com o três:");
+    	System.out.println("Múltiplos de 3 que não terminem em 3 entre 1 e 200:");
         boolean first = true;
-        for (int i = 3; i < 1000; i += 3) {
+        for (int i = 3; i < 200; i += 3) {
             if (i % 10 != 3) {
                 if (!first) {
                     System.out.print(", ");
