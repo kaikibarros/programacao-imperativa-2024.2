@@ -10,9 +10,9 @@ class Ideone
         somatodosimpares();
         multiplosde3sem3();
     }
-
-    // Função para imprimir os números de 1 a 100 separados por vírgula
-    public static void number1to100() {
+    public static void number1to100() { 
+    	
+    	System.out.println("Números de 1 até 100:");
         for (int i = 1; i <= 100; i++) {
             if (i > 1) {
                 System.out.print(", ");
@@ -21,18 +21,16 @@ class Ideone
         }
         System.out.println();
     }
-
-    // Função para imprimir o somatório de todos os números ímpares entre 10 e 1000
     public static void somatodosimpares() {
+    	System.out.println("Soma de todos os ímpares entre 10 e 1000:");
         int sum = 0;
         for (int i = 11; i < 1000; i += 2) {
             sum += i;
         }
         System.out.println(sum);
     }
-
-    // Função para imprimir todos os números múltiplos de 3 que não terminem em 3
     public static void multiplosde3sem3() {
+    	System.out.println("Múltiplos de 3 sem contar com o três:");
         boolean first = true;
         for (int i = 3; i < 1000; i += 3) {
             if (i % 10 != 3) {
