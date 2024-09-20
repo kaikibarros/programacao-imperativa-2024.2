@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class vetores {
 
+    // busca simples linear
     public static int buscaSimples(int[] valor, int k) {
         for (int i = 0; i < valor.length; i++) {
             if (valor[i] == k) {
