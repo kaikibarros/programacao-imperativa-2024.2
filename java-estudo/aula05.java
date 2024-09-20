@@ -21,7 +21,7 @@ public class aula05 {
     // DO-WHILE
     // executa pelo menos uma vez, independente da condição;
 
-    int cont1 = 0;
+    //int cont1 = 0;
     do {
       System.out.println(cont + "CFB");
       cont++;
