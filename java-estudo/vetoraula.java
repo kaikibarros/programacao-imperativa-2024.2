@@ -1,6 +1,6 @@
 
 import java.sql.SQLOutput;
-public class atv {
+public class vetoraula{
    public static void main(String[] args) {
        // gerar 2 binários e exibir a soma
 
@@ -39,14 +39,13 @@ public class atv {
 
                for (int i =0; i < vetor.length; i++ ){
                    switch( valorAtual) {
-                       case 1: soma == 0
-                               valorAtual = 0; vai1 = 0;
-                               break;
-                       case 2: soma == 0
-                       break;
+                    //    case 1: soma == 0
+                    //            valorAtual = 0; vai1 = 0;
+                    //            break;
+                    //    case 2: soma == 0
+                    //    break;
                    }
-                   System.out.println(vetor[i] + binario1 + binario2);
+                //    System.out.println(vetor[i] + binario1 + binario2);
                };
        }
-    }
-
+}
