@@ -9,7 +9,14 @@ public class v06 {
         Scanner ler = new Scanner(System.in);
 
         final int[] vetor = new int[10];
-
+        
+        System.out.println("Digitw 10 números inteiros!");
+        for(int i = 0; i < 3; i++){
+            System.out.printf("digite o %d número: ", i);
+           int num = ler.nextInt();
+        }
+        System.out.println(Math.min(2, 10));
+        // System.out.println(Math.max());
         
     }
     
