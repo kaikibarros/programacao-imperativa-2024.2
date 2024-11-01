@@ -34,7 +34,7 @@ public class vetoraula{
            }
            public static void imprimir3Vetor(int[] vetor){
                int valorAtual = 0;
-               int va1=0;
+            //    int va1=0;
                //soma = vetor1[i]+ vetor2[i]+ vai1;
 
                for (int i =0; i < vetor.length; i++ ){

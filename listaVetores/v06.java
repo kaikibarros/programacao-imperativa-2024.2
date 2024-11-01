@@ -15,8 +15,7 @@ public class v06 {
             System.out.printf("digite o %d número: ", i);
            int num = ler.nextInt();
         }
-        System.out.println(Math.min(2, 10));
-        // System.out.println(Math.max());
+
         
     }
     
