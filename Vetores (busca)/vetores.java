@@ -31,7 +31,7 @@ public class vetores {
             }
         }
         return -1;  // Retorna -1 se não encontrar
-    
+
     }
     
     public static void main (String[] args) {
