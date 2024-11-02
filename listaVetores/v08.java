@@ -14,7 +14,7 @@ public class v08 {
             vetor[i] = ler.nextInt();
         }
        for (int i = vetor.length - 1; i >= 0; i--) {
-           System.out.println(vetor[i]);
+           System.out.print(" / " + vetor[i]);
        }
     }
 }

@@ -11,13 +11,13 @@ public class v06 {
 
         final int[] vetor = new int[10];
         
-        System.out.println("Digite 10 números inteiros!");
+        System.out.println("Digitw 10 números inteiros!");
         for(int i = 0; i < 10; i++){
             System.out.printf("digite o %d número: ", i +1);
            vetor[i] = ler.nextInt();
         }
        exibirMaiorMenor(vetor);
-       
+        
     }
     public static void exibirMaiorMenor(int[] v) {
         int maior = Arrays.stream(v).max().orElseThrow();
