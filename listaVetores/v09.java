@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 // Crie um programa que le 6 valores inteiros pares e, em seguida, mostre na tela os valores ˆ
 //lidos na ordem inversa.
-
 public class v09 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
