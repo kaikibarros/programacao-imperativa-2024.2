@@ -7,6 +7,6 @@ public class v14 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
 
-        Int[] valor = new int[10];
+    //    Int[] valor = new int[10];
     }
 }
