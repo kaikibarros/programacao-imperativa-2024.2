@@ -1,8 +1,6 @@
 package listaVetores;
 import java.util.Scanner;
 import java.util.Arrays;
-
-
 // Faca um programa que receba do usuario um vetor com 10 posicoes. Em seguida deverá
 // ser impresso o maior e o menor elemento do vetor.
 public class v06 {
@@ -17,7 +15,6 @@ public class v06 {
            vetor[i] = ler.nextInt();
         }
        exibirMaiorMenor(vetor);
-        
     }
     public static void exibirMaiorMenor(int[] v) {
         int maior = Arrays.stream(v).max().orElseThrow();
