@@ -23,7 +23,6 @@ public class Main {
             palavras[j + 1] = aux;
         }
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
